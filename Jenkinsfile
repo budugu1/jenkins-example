@@ -1,5 +1,5 @@
 pipeline {
-	agent {  label 'dev-label' }
+	agent {  label 'linux-node-geeta' }
 	stages {
 		stage('---clean----'){
 			tools {
